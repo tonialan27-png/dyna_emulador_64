@@ -1,0 +1,6 @@
+{
+  "name": "Dyna Radical 64 - NES Emulator PWA",
+  "description": "Emulador de NES Dyna Radical 64 PWA com backend, sincronização Supabase e modo offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="108" fill="#14141e" />
+  <rect x="56" y="70" width="400" height="372" rx="36" fill="#20202e" stroke="#2e2e42" stroke-width="8" />
+  <!-- Crimson Header Accent -->
+  <path d="M 64 126 C 64 96 88 78 118 78 L 394 78 C 424 78 448 96 448 126 L 448 156 L 64 156 Z" fill="#e52521" />
+  <text x="256" y="132" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="3">DYNA RADICAL 64</text>
+  <!-- D-Pad cross -->
+  <g transform="translate(140, 290)">
+    <rect x="-18" y="-55" width="36" height="110" rx="8" fill="#e0e0e0" />
+    <rect x="-55" y="-18" width="110" height="36" rx="8" fill="#e0e0e0" />
+    <circle cx="0" cy="0" r="10" fill="#999999" />
+  </g>
+  <!-- Select & Start -->
+  <g transform="translate(230, 345)">
+    <rect x="0" y="0" width="22" height="8" rx="4" fill="#555" transform="rotate(-25)" />
+    <rect x="36" y="0" width="22" height="8" rx="4" fill="#555" transform="rotate(-25)" />
+  </g>
+  <!-- Action Buttons A & B -->
+  <g transform="translate(360, 290)">
+    <circle cx="-35" cy="18" r="22" fill="#e52521" stroke="#a01414" stroke-width="3" />
+    <circle cx="25" cy="-8" r="22" fill="#e52521" stroke="#a01414" stroke-width="3" />
+    <text x="-35" y="26" font-family="system-ui, sans-serif" font-weight="bold" font-size="18" fill="#fff" text-anchor="middle">B</text>
+    <text x="25" y="0" font-family="system-ui, sans-serif" font-weight="bold" font-size="18" fill="#fff" text-anchor="middle">A</text>
+  </g>
+</svg>

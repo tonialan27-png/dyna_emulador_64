@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Custom scrollbars */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #17171d;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #333342;
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #47475c;
+}
+
+/* Mobile viewport prevention for arcade controls */
+canvas {
+  touch-action: none;
+}
